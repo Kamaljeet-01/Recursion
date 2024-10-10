@@ -40,6 +40,21 @@ void Sum(int count,int sum){
     Sum(--count,sum);
 }
 
+//Function to print sum (using function):
+
+int sigma(int count){
+    if(count==0) return 0;
+    return (count+sigma(count-1));
+     
+}
+
+//Function to print factorial of any  number :
+int factorial(int n){
+    if(n==0) return 1;
+    return (n*factorial(n-1));
+}
+
+
 int main(){
     int count,sum=0;
     cin>>count;
@@ -49,9 +64,9 @@ int main(){
     
     //print1ToN(count);
     
-    Sum(count,sum);
+    //cout<<sigma(count)<<endl;
 
-    
+    cout<<factorial(count)<<endl;
 
     cout<<"Hello Program ends here.";
     return 0;
