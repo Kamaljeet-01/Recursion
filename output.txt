@@ -1,2 +1,2 @@
-24
-Hello Program ends here.
+10 8 6 4 2 
+Program ends here.....
