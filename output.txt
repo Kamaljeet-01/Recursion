@@ -1,2 +1,2 @@
-10 8 6 4 2 
+3
 Program ends here.....
