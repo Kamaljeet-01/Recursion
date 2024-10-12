@@ -7,7 +7,7 @@ void printDs(vector<int> ds){
     }
     cout<<endl;
 }
-
+//Sub-Sequence of any string or array                       T.C. =  O(2^N)*N     S.C.  =  O(N)
 void subSequence(int idx,vector<int> &ds,int arr[],int n){
     //Base Condition where index goes beyond the array.
     if(idx>=n){
